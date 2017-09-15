@@ -1,2 +1,3 @@
 # CS_1.6_SURF
-some of my counterstrike 1.6 plugins 
+Only the progamingsurf.sma is made by me
+Other plugins are either untouched or slightly modified to fit the the surf plugin.
