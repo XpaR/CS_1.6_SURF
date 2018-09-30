@@ -496,8 +496,6 @@ public plugin_init( ) {
 	register_clcmd( "say /xp", "fnShowPersonLevel" );
 	register_clcmd( "say_team /xp", "fnShowPersonLevel" );
 	
-	register_concmd( "gamed", "fnGamed" );
-	
 	register_clcmd( "say /knife", "fnKnivesMenu" );
 	register_clcmd( "say_team /knife", "fnKnivesMenu" );
 	
@@ -811,11 +809,6 @@ public fwDrawTrace( ent, attacker, Float:damage, Float:direction[ 3 ], ptr, dama
 		}
 	}
 	return 1;
-}
-
-public fnGamed( )
-{
-	server_cmd("quit");
 }
 
 public plugin_cfg( )
